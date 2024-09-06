@@ -1,17 +1,22 @@
 {
-  "name": "kanban-server",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.2",
     "sqlite3": "^5.1.7"
   },
-  "devDependencies": {},
-  "description": ""
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.4"
+  }
 }
